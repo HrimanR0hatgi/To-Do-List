@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# My Productivity local data
+tasks.json
+accountability.json
+accountability_lock.json
+browser_lock.json
+habits.json
+settings.json
+*_backup.json
+
+# Local test utility
+tester.py

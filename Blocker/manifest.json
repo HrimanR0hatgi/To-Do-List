@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "My Productivity Blocker",
+  "version": "1.0.0",
+  "description": "Blocks selected websites while an accountability lock is active.",
+  "permissions": [
+    "storage",
+    "alarms",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": ["http://127.0.0.1:49252/*"],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "My Productivity Blocker"
+  }
+}
